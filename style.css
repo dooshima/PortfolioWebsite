@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin:auto; 
+      
+}
+
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
+.clearRight {
+    clear: right;
+}
+.clearLeft {
+    clear: left;
+}
+.clearBoth {
+    clear: both;
+}
+
+#wrapper {
+    position: relative;
+    padding: 0;
+    width: 602px;
+    margin:auto;
+  
+}
+#blog{
+    background-color:  #2F4F4F;
+    color: white;
+    padding: 10px;
+    padding-bottom: 2px;
+}
+h2{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2F4F4F;
+}
+
+li {
+    float: left;
+}
+
+ li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#000000;
+}
+#main{
+    border: 2px solid green;
+    border-radius: 10px;
+    background:  #2F4F4F;
+    margin-top: 20px;
+}
+#main p{
+    margin: 6px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 300px;
+}
+
+.image{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.webs {
+    margin-top: 10px;
+    text-align: center;
+
+}
+.con{
+    text-align: center;
+}
+h1 { font-size: 3em; }
+
+#mainContent {
+    padding-right: 25px;
+    float: right;
+    width: 608px;
+    margin-bottom: 45px;
+}
+#mainContent form {
+
+    font: normal .9em Arial, Helvetica, sans-serif;
+    color: #193742;
+}
+#mainContent fieldset {
+    padding: 40px 20px  0 0;
+    background-color: white;
+    border: none;
+    position: relative;
+     
+}
+#mainContent fieldset legend {
+    color: #51341a;
+}
+#mainContent legend strong {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+#mainContent #mainArticle form p {
+    color: #193742;
+    margin: 0 0 20px 20px;
+}
+
+#mainContent form label{
+    width: 100px;
+    float: left;
+    clear: left;
+    margin-right: .75em;
+}
+
+#mainContent form#frmContact textarea {
+    margin-left: 10px;
+    width: 500px;
+    height: 150px;
+}
+
+/* added for error message on form */
+#errorMessage {
+    font-size: 1.5em;
+    color: #f00;
+}

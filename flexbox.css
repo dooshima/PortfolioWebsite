@@ -1,0 +1,40 @@
+#main{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:row;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-align-self:stretch;
+	-webkit-column-width:200px	
+
+}
+
+#blog{
+	-webkit-column-count:3;
+	column-count:3;
+	-webkit-column-rule:2px dotted #070641;
+	column-rule:2px dotted #070641;
+	-webkit-columns-width:250px 3em;
+	columns-width:250px 3em
+}
+#blog img{
+	display: block;
+	margin: 1.5em 0;
+	max-width: 100%;
+	
+}
+h1{
+	-webkit-column-span:all;
+	column-span:all;
+   justify-content: flex-start;
+
+}
+
+
+@media screen and (max-width: 999px){
+	#main{
+		-webkit-flex-direction:column;
+		flex-direction:column;
+
+	}
+}
